@@ -1,4 +1,4 @@
-import { Compare, compare, unsortedArray } from "../utils";
+import { Compare, compare, unsortedArray } from "../../utils";
 export function insertionSort(array, compareFunction = compare) {
   const { length } = array;
 

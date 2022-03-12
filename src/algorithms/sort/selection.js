@@ -1,4 +1,4 @@
-import { Compare, compare, swap, unsortedArray } from "../utils";
+import { Compare, compare, swap, unsortedArray } from "../../utils";
 function selectionSort(array, compareFunction) {
   const { length } = array;
   let indexMin = 0;

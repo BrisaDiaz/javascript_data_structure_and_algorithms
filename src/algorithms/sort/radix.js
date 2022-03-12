@@ -1,4 +1,4 @@
-import { unsortedArray } from "../utils";
+import { unsortedArray } from "../../utils";
 
 const getNum = (num, index) => {
   const strNum = String(num);

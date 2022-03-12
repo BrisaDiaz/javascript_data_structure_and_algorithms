@@ -1,5 +1,5 @@
-import { compare, Compare, unsortedArray, lesserOrEquals } from "../utils";
-import { quickSort } from "../sort/quick";
+import { compare, Compare, unsortedArray, lesserOrEquals } from "../../utils";
+import { quickSort } from "../../sort/quick";
 
 function binarySearch(array, value, compareFunction = compare) {
   const sortedArray = quickSort(array);

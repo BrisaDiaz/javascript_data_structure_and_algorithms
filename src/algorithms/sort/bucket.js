@@ -1,5 +1,5 @@
 import { insertionSort } from "./insertion";
-import { unsortedArray } from "../utils";
+import { unsortedArray } from "../../utils";
 
 function bucketSort(array, bucketSize) {
   if (array.length < 2) return array;

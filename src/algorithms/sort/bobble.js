@@ -1,4 +1,4 @@
-import { Compare, compare, swap, unsortedArray } from "../utils";
+import { Compare, compare, swap, unsortedArray } from "../../utils";
 function bobbleSort(array, compareFunction) {
   const { length } = array;
   for (let i = 0; i < length; i++) {

@@ -1,4 +1,4 @@
-import { Compare, compare, unsortedArray } from "../utils";
+import { Compare, compare, unsortedArray } from "../../utils";
 function merge(left, right, compareFunction) {
   const result = [];
   let i = 0;

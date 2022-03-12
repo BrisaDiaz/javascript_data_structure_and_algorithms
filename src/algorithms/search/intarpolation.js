@@ -1,4 +1,4 @@
-import { compare, biggerOrEquals, lesserOrEquals, Compare } from "../utils";
+import { compare, biggerOrEquals, lesserOrEquals, Compare } from "../../utils";
 
 function interpolationSearch(
   array,

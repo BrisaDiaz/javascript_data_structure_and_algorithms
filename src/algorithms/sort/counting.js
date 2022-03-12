@@ -1,4 +1,4 @@
-import { findMaxValue, unsortedArray } from "../utils";
+import { findMaxValue, unsortedArray } from "../../utils";
 
 function countingSort(array) {
   if (array.length < 2) return array;
